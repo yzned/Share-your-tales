@@ -1,0 +1,58 @@
+import { StyleSheet } from "react-native";
+import { ThemeType } from "../../../7_shared/theme";
+
+export const getStyles =(theme:ThemeType)=> StyleSheet.create({
+    verySmallIcon:{
+        width:24,
+        height:24,
+        display:"flex",
+        borderRadius:100,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    smallIcon:{
+        width:40,
+        height:40,
+        backgroundColor:theme.additional.userIconBackgroundcolor,
+        display:"flex",
+        borderRadius:100,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    mediumIcon:{
+        width:80,
+        height:80,
+        backgroundColor:theme.additional.userIconBackgroundcolor,
+        display:"flex",
+        borderRadius:100,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    bigIcon:{
+        width:160,
+        height:160,
+        backgroundColor:theme.additional.userIconBackgroundcolor,
+        display:"flex",
+        borderRadius:100,
+        justifyContent:"center",
+        alignItems:"center"
+    },
+    iconColor:{
+        color:theme.additional.userIconManColor
+    },
+    bigAvatar:{
+        width:160,
+        height:160,
+        borderRadius:100,
+    },
+    mediumAvatar:{
+        width:80,
+        height:80,
+        borderRadius:100,
+    },
+    smallAvatar:{
+        width:40,
+        height:40,
+        borderRadius:100,
+    }
+});

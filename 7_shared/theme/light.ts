@@ -1,0 +1,35 @@
+export const lightTheme = {
+  theme: 'light',
+  grayscale: {
+    white: '#FFFFFF',
+    grayscale700: '#131313',
+    grayscale600: '#696969',
+    grayscale500: '#9B9B9B',
+    grayscale400: '#D0D1D0',
+    grayscale300: '#DEDEDE',
+    grayscale200: '#F4F5F4',
+    grayscale100: '#FFFFFF',
+  },
+  primary: {
+    default: '#91C521',
+    bigButtonBackgroundColor: '#87B71F',
+    bigButtonTextColor: '#FFFFFF',
+    pressed: '#618909',
+    pressedLink: '#618909',
+  },
+  additional: {
+    error: '#C2534C',
+    closedIconColor: '#696969',
+    closedPressedButtonColor: '#87B71F',
+    closedDisabledButtonColor: '#9B9B9B',
+    iconPressedButtonColor: '#618909',
+    photoIconDisabledColor: '#9B9B9B',
+    pressedXmarkColor: '#87B71F',
+    disabledXMarkColor: '#9B9B9B',
+    heartButtonInitial: '#131313',
+    userIconBackgroundcolor: '#D0D1D0',
+    userIconManColor: '#9B9B9B',
+    headerDatePickColor: '#9A99A2',
+  },
+};
+export type ThemeType = typeof lightTheme;

@@ -1,0 +1,35 @@
+export const darkTheme = {
+  theme: 'dark',
+  grayscale: {
+    white: '#131313',
+    grayscale700: '#FFFFFF',
+    grayscale600: '#DEDEDE',
+    grayscale500: '#9B9B9B',
+    grayscale400: '#696969',
+    grayscale300: '#303030',
+    grayscale200: '#1b1b1b',
+    grayscale100: '#131313',
+  },
+  primary: {
+    default: '#B8DE64',
+    bigButtonBackgroundColor: '#303030',
+    bigButtonTextColor: '#B8DE64',
+    pressed: '#B8DE64',
+    pressedLink: '#75C537',
+  },
+  additional: {
+    error: '#C2534C',
+    closedIconColor: '#131313',
+    closedPressedButtonColor: '#B8DE64',
+    closedDisabledButtonColor: '#131313',
+    iconPressedButtonColor: '#131313',
+    photoIconDisabledColor: '#696969',
+    pressedXmarkColor: '#131313',
+    disabledXMarkColor: '#131313',
+    heartButtonInitial: '#DEDEDE',
+    userIconBackgroundcolor: '#303030',
+    userIconManColor: '#1B1B1B',
+    headerDatePickColor: '#FFFFFF',
+  },
+};
+export type ThemeType = typeof darkTheme;
